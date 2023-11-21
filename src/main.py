@@ -28,7 +28,7 @@ print("PV Power Prediction:")
 
 print(fig)
 
-print("PV Power Prediction Score: {}".format(model.score(X,Y)))
+print(f"PV Power Prediction Score: {model.score(X,Y)}")
 
 fig.columns = ['yield']
 
